@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "veil",
+  "version": "${version}",
+  "name": "Veil",
+  "description": "Peel back the veil.",
+  "authors": [
+    "amo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "coffee.amo.veil.fabric.VeilFabric"
+    ]
+  },
+  "mixins": [
+    "veil.mixins.json",
+    "veil-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}
